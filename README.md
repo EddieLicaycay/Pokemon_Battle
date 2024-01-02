@@ -1,5 +1,3 @@
-# SDI Blended Project 1 Scaffold
-
 *WELCOME TO MY POKEMON BATTLER!*
 
 # Repo Directions
