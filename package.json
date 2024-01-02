@@ -1,0 +1,22 @@
+{
+  "name": "sdi-blended-project1-scaffold",
+  "version": "1.0.0",
+  "description": "'Project 1'",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddieLicaycay/sdi-blended-project1-scaffold.git"
+  },
+  "author": "Eddie Licaycay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EddieLicaycay/sdi-blended-project1-scaffold/issues"
+  },
+  "homepage": "https://github.com/EddieLicaycay/sdi-blended-project1-scaffold#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}

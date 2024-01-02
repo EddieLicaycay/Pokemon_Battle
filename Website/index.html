@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="index.js"></script>
+  <link href="index.css" rel="stylesheet" >
+  <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+  <link href="KanBan.md/pokeball.png" rel="icon">
+  <title>Pokemon Battle!</title>
+</head>
+<body>
+  <div class="topNav">
+    <a href="#home" class="homeLink">Home</a>
+    <a href="pokedex.html" class="pokedexList">Pokedex</a>
+  </div>
+
+  <h1 class="Title">Get Ready for Battle!</h1>
+  <div class="firstPokemon">
+    <input class="inputPokemon1" placeholder="Input pokemon name/number here...">
+    <button class="firstPokemonBtn" onClick="firstfetchPokemon()">Fetch!</button>
+  </div>
+
+  <div class="imageContainer1">
+    <h2 class="pokeName1"></h2>
+    <div class="pokeImage1"></div>
+    <p class="stats1"></p>
+    <p class="allStats1"></p>
+  </div>
+
+  <div class="versus">
+  <button class="battle" onClick="battler">BATTLE!</button>
+  <p class="winner"></p>
+  </div>
+
+  <div class="secondPokemon">
+    <input class="inputPokemon2" placeholder="Input pokemon name/number here...">
+    <button class="secondPokemonBtn" onClick="secondfetchPokemon()">Fetch!</button>
+  </div>
+
+  <div class="imageContainer2">
+    <h2 class="pokeName2"></h2>
+    <div class="pokeImage2"></div>
+    <p class="stats2"></p>
+    <p class="allStats2"></p>
+  </div>
+
+</body>
+</html>
